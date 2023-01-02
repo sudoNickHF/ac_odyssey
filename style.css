@@ -1,0 +1,205 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+
+                                        /* Header */
+.right {
+    background-color:#dcdcdc3c;
+    position:fixed;
+    width:200px;
+    height:100%;
+}
+
+.left {
+    background-color:#dcdcdc3c;
+    position:fixed;
+    width:200px;
+    height:100%;
+    right:0px;
+}
+.header {
+    display:flex;
+    position:absolute;
+    left:250px;
+    background:#1F2937;
+    color:white;
+}
+
+.header_p {
+    display:flex;
+    right:250px;
+    position:fixed;
+    gap:70px;
+    font-size:20px;
+    font-weight:bold;
+}
+.header_p > p {
+    border:3px solid white;
+    padding:5px;
+}
+a:visited, 
+:hover,
+:active,
+:link {
+    text-decoration: none;
+    color:White;
+}
+                                        /* Section 1*/
+.section_1 {
+    display:flex;
+    justify-content: center;
+    padding:10% 17% 0 17%;
+    gap:40px;
+    align-items:center;
+    background:#1F2937;
+    color:white;
+    padding-bottom:200px;
+    padding-top:250px;
+}
+
+.section_1 > .description > h2 {
+    border-bottom: 1px solid white; 
+    max-width:200px;
+    line-height: 0.1em;
+    margin-left:110px;
+ } 
+ 
+.section_1 > .description > h2 > span { 
+     background:#1F2937; 
+     padding:0 10px; 
+     font-size:smaller;
+ }
+
+ .section_1 > .description > h1 > span {
+   font-size:larger;
+ }
+
+ .section_1 > .description > h3 {
+    font-size:50px;
+    margin-top:20px;
+ }
+ .section_1 > .description > h1 , h2 , h3 {
+    color:#f9faf8;
+    font-size:30px;
+    font-weight:extra-bold;
+    text-align:center;
+    line-height:10px;
+ }
+ .section_1 > .description > p {
+    color:#e5e7eb;
+    font-size:18px;
+ }
+.section_1 > .description > button {
+    padding:10px 40px;
+    background-color: ;
+}
+.section_1 > .the_view > img {
+    width:100%;
+    border:5px solid white;
+}
+                                        /* Section 2 */
+h4 {
+    text-align:center;
+    color:white;
+    font-size:80px;
+    margin:0px;
+    padding:30px 0 60px 0;
+    background-color:#457b9d;
+}
+
+.section_2 {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:200px;
+    padding-bottom:30px;
+    background-color:#457b9d;
+    
+}
+
+.section_2 > .kassandra > p,
+.section_2 > .alexios > p {
+    width:400px;
+    text-align:center;
+    color:white;
+    font-size:20px;
+}
+.section_2 > .kassandra > img {
+    max-width:400px;
+    border:5px solid white;
+    border-radius:10%;
+}
+
+.section_2 > .alexios > img {
+    max-width:400px;
+    border:5px solid white;
+    border-radius:10%;
+}
+
+                                        /* Section 3 */
+
+.section_3 {
+    background-color:white;
+}
+.section_3 > .quote {
+    display:flex;
+    flex-direction: column;
+    background-color:grey;
+    font-size:40px;
+    color:white;
+    margin:0px;
+    align-items:center;
+    padding:60px 0;
+}
+
+.section_3 > .quote > p > span {
+    position:relative;
+    right:-450px;
+}
+.section_3 > .game_buy {
+    background:rgb(27, 150, 237);
+    color:black;
+    width:500px;
+    position:relative;
+    left:30%;
+    margin-top:30px;
+    padding:10px 0 10px 10px;
+    border-radius:10px;
+    display:flex;
+    flex-direction:row;
+    gap:50px;
+    align-items:center;
+    line-height:1px;
+}
+.section_3 > .game_buy > div > .button {
+    border:3px solid white;
+    border-radius:10px;
+    color:white;
+    background:none;
+    font-size:20px;
+    padding:5px;
+}
+.section_3 > .game_buy > div > .button:hover {
+    font-size:25px;
+
+}
+                                                    /* Bottom */
+.bottom {
+    margin:220px 0 0 0;
+    text-align:center;
+    color:white;
+    background-color:#1F2937;
+    padding:10px 0;
+}
+
+p:visited,
+:hover,
+:active,
+:link {
+    text-decoration: none;
+}
+
+.bottom > p:hover {
+    color:white;
+}
